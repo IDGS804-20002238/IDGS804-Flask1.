@@ -1,4 +1,39 @@
-{% extends "layout.html" %}
-{% block content %}
-<h1>la multiplicacion de {{n1}} x {{n2}} = {{res}}</h1>
-{% endblock %}
+<html>
+  <head>
+    <title>Resultado</title>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #33AFFF;
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 10px #ccc;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      
+      
+  </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Resultado</h1>
+    <p>Nombre: {{ nombre }}</p>
+    <p>Cantidad de boletas: {{ cantidad }}</p>
+    <p>Cantidad de compradores: {{ compradores }}</p>
+
+    <p>Precio total: {{ precio }}</p>
+  </div>
+  </body>
+</html>
