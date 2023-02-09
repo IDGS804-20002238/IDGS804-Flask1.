@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Resultados</title>
+  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    body{
+      background: linear-gradient(to right, #04556e, #8fcdf9);
+      font-family: 'Open Sans', sans-serif;
+      font-size: 24px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-6">
+    <h1>Resultados</h1>
+    <p>Nombre: {{ nombre }} {{ apaterno }} {{ amaterno }}</p>
+    <p>Edad: {{ edad }}</p>
+    <p>Sexo: {{ sexo }} </p>
+    <p>Calificación: {{ calificacion }}/5</p>
+    <p>Signo Zodiacal Chino: </p>
+    <br>
+    <img src={{url}} alt="">
+  </div>
+</div>
+</div>
+  </body>
+</html>
